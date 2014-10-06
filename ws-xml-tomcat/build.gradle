@@ -1,0 +1,26 @@
+apply plugin: 'war'
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+war {
+    classpath fileTree('lib') // adds a file-set to the WEB-INF/lib dir.
+    webInf { from 'web/WEB-INF' } // adds a file-set to the WEB-INF dir.
+}
+
+dependencies {
+    compile project(':research-dao')
+    compile project(':research-model')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

@@ -1,0 +1,19 @@
+person
+system.indexes
+_{ "_id" : { "$oid" : "542f10816986cee17e9885f5"} , "name" : "thomas" , "surname" : "adriano"}
+g{ "_id" : { "$oid" : "542f0bd83e644430795f21db"} , "name" : "thomas-updated" , "surname" : "adriano"}
+c{ "_id" : { "$oid" : "542f0e026986a435a152a5ad"} , "name" : "jake-updated" , "surname" : "pelin"}
+_{ "_id" : { "$oid" : "542f10816986cee17e9885f5"} , "name" : "thomas" , "surname" : "adriano"}
+X{ "_id" : { "$oid" : "542f27afabf741701ab72c93"} , "name" : "Lala" , "surname" : "PO"}
+e{ "_id" : { "$oid" : "542ffea1abf741701ab72c94"} , "name" : "testName" , "surname" : "testSurname"}
+c{ "_id" : { "$oid" : "5431362c6986a3a7ac135592"} , "name" : "jake-updated" , "surname" : "pelin"}
+e{ "_id" : { "$oid" : "54313e406986020dacb33029"} , "name" : "personRepoTest" , "surname" : "testy"}
+g{ "_id" : { "$oid" : "542f0bd83e644430795f21db"} , "name" : "thomas-updated" , "surname" : "adriano"}
+c{ "_id" : { "$oid" : "542f0e026986a435a152a5ad"} , "name" : "jake-updated" , "surname" : "pelin"}
+_{ "_id" : { "$oid" : "542f10816986cee17e9885f5"} , "name" : "thomas" , "surname" : "adriano"}
+X{ "_id" : { "$oid" : "542f27afabf741701ab72c93"} , "name" : "Lala" , "surname" : "PO"}
+e{ "_id" : { "$oid" : "542ffea1abf741701ab72c94"} , "name" : "testName" , "surname" : "testSurname"}
+c{ "_id" : { "$oid" : "5431362c6986a3a7ac135592"} , "name" : "jake-updated" , "surname" : "pelin"}
+e{ "_id" : { "$oid" : "54313e406986020dacb33029"} , "name" : "personRepoTest" , "surname" : "testy"}
+[{ "_id" : { "$oid" : "543141ba69865de9faf23c56"} , "name" : "jake" , "surname" : "pelin"}
+:{ "serverUsed" : "localhost:27017" , "ok" : 1 , "n" : 0}

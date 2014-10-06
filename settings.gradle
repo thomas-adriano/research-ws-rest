@@ -1,0 +1,16 @@
+rootProject.name = 'research-ws-rest'
+
+include 'rest-client'
+
+include 'ws-xml-server'
+
+include 'ws-xml-tomcat'
+
+include 'research-model'
+
+include 'research-dao'
+
+include 'ws-xml-client'
+
+
+

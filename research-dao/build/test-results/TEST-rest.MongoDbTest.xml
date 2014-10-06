@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rest.MongoDbTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2014-10-05T13:03:53" hostname="thomi-note" time="0.81">
+  <properties/>
+  <testcase name="getTableTest" classname="rest.MongoDbTest" time="0.544"/>
+  <testcase name="findTest" classname="rest.MongoDbTest" time="0.093"/>
+  <testcase name="updateTest" classname="rest.MongoDbTest" time="0.12"/>
+  <testcase name="insertTest" classname="rest.MongoDbTest" time="0.028"/>
+  <testcase name="deleteTest" classname="rest.MongoDbTest" time="0.023"/>
+  <system-out><![CDATA[person
+system.indexes
+{ "_id" : { "$oid" : "542f10816986cee17e9885f5"} , "name" : "thomas" , "surname" : "adriano"}
+{ "_id" : { "$oid" : "542f0bd83e644430795f21db"} , "name" : "thomas-updated" , "surname" : "adriano"}
+{ "_id" : { "$oid" : "542f0e026986a435a152a5ad"} , "name" : "jake-updated" , "surname" : "pelin"}
+{ "_id" : { "$oid" : "542f10816986cee17e9885f5"} , "name" : "thomas" , "surname" : "adriano"}
+{ "_id" : { "$oid" : "542f27afabf741701ab72c93"} , "name" : "Lala" , "surname" : "PO"}
+{ "_id" : { "$oid" : "542ffea1abf741701ab72c94"} , "name" : "testName" , "surname" : "testSurname"}
+{ "_id" : { "$oid" : "5431362c6986a3a7ac135592"} , "name" : "jake-updated" , "surname" : "pelin"}
+{ "_id" : { "$oid" : "54313e406986020dacb33029"} , "name" : "personRepoTest" , "surname" : "testy"}
+{ "_id" : { "$oid" : "542f0bd83e644430795f21db"} , "name" : "thomas-updated" , "surname" : "adriano"}
+{ "_id" : { "$oid" : "542f0e026986a435a152a5ad"} , "name" : "jake-updated" , "surname" : "pelin"}
+{ "_id" : { "$oid" : "542f10816986cee17e9885f5"} , "name" : "thomas" , "surname" : "adriano"}
+{ "_id" : { "$oid" : "542f27afabf741701ab72c93"} , "name" : "Lala" , "surname" : "PO"}
+{ "_id" : { "$oid" : "542ffea1abf741701ab72c94"} , "name" : "testName" , "surname" : "testSurname"}
+{ "_id" : { "$oid" : "5431362c6986a3a7ac135592"} , "name" : "jake-updated" , "surname" : "pelin"}
+{ "_id" : { "$oid" : "54313e406986020dacb33029"} , "name" : "personRepoTest" , "surname" : "testy"}
+{ "_id" : { "$oid" : "543141ba69865de9faf23c56"} , "name" : "jake" , "surname" : "pelin"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

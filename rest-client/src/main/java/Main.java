@@ -9,12 +9,11 @@ public class Main {
 
         PersonRestClient cl = new PersonRestClient();
 
-//        interate(cl, 1);
-//        interate(cl, 10);
-//        interate(cl, 100);
-//        interate(cl, 1000);
-        interate(cl, 10000);
-//6781
+        interate(cl, 1);
+        interate(cl, 10);
+        interate(cl, 100);
+        interate(cl, 1000);
+
     }
 
     public static void interate(PersonRestClient cl, int times) {
